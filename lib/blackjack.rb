@@ -45,11 +45,7 @@ def hit?(currentTotal)
   # newTotal = 0 put back later to test
   prompt_user
   stayOrHit = get_user_input
-<<<<<<< HEAD
   while stayOrHit != "s" && stayOrHit != "h"
-=======
-  while stayOrHit == "s" && stayOrHit == "h"
->>>>>>> cdc6e13d8a96e847a59d5d72cd9a4dbd83c0e5dd
       invalid_command
       prompt_user
       stayOrHit = get_user_input
